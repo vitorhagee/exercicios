@@ -1,5 +1,8 @@
 console.log("exercicio 6:");
 console.log("-----------------------------")
+/*6.Compare dois números:
+qual é maior
+se são iguais*/
 
 let numero1:number = 10;
 let numero2:number = 25;
@@ -15,6 +18,7 @@ if(numero1 > numero2){
 console.log("-----------------------------")
 console.log("exercicio 7:");
 console.log("-----------------------------")
+/*7.Descubra se número é par usando %.*/
 
 let parOrImpar:number = 15
  
@@ -27,6 +31,10 @@ if(parOrImpar%2 === 0){
 console.log("-----------------------------")
 console.log("exercicio 8:");
 console.log("-----------------------------")
+/*8.
+Teste:
+10 == "10"
+10 === "10"*/
 
 const num1: number = 10;
 const num2:string = "10";
@@ -37,6 +45,8 @@ console.log(num1 === num2 as any);
 console.log("-----------------------------")
 console.log("exercicio 9:");
 console.log("-----------------------------")
+/*9.Verifique se pode dirigir:
+let idade = 17;*/
 
 let idade:number = 17
 
@@ -49,6 +59,10 @@ if(idade >= 18){
 console.log("-----------------------------")
 console.log("exercicio 10:");
 console.log("-----------------------------")
+/*10.Pode entrar se:
+tiver ingresso
+OU
+nome na lista*/
 
 let ingresso:boolean = false;
 let nomeList:boolean = false;

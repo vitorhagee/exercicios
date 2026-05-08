@@ -1,5 +1,9 @@
 console.log("exercicio 11:");
 console.log("-----------------------------")
+/*11.Número:
+positivo
+negativo
+zero*/
 
 const numero1:number = -13;
 
@@ -14,6 +18,10 @@ if(numero1>0){
 console.log("-----------------------------")
 console.log("exercicio 12:");
 console.log("-----------------------------")
+/*12.Sistema de notas:
+= 7 aprovado
+= 5 recuperação
+< 5 reprovado*/
 
 const nota:number = 6.7
 
@@ -28,7 +36,9 @@ if(nota >= 7){
 console.log("-----------------------------")
 console.log("exercicio 13:");
 console.log("-----------------------------")
-
+/*
+13.Verifique se usuário é admin.
+*/
 const admin:boolean = false;
 
 if(admin){
@@ -40,6 +50,9 @@ if(admin){
 console.log("-----------------------------")
 console.log("exercicio 14:");
 console.log("-----------------------------")
+/*14.Simule login:
+senha correta
+senha errada*/
 
 const senha:number = 123456;
 const tentativa:number = 123456;
@@ -55,6 +68,10 @@ if(senha === tentativa){
 console.log("-----------------------------")
 console.log("exercicio 15:");
 console.log("-----------------------------")
+/*15.Classifique idade:
+criança
+adulto
+idoso*/
 
 const idade:number = 65;
 

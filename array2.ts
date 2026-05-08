@@ -1,5 +1,6 @@
 console.log("exercicio 26:");
 console.log("-----------------------------")
+//26.[1,2,3,4,5]→ pegar > 2 e dobrar
 
 let list:number[] = [1,2,3,4,5];
 let seldouble = list.filter((num) => num === 2).map((num2) => num2 *2);
@@ -9,6 +10,7 @@ console.log(seldouble);
 console.log("-----------------------------")
 console.log("exercicio 27:");
 console.log("-----------------------------")
+//["ana","joao","maria"]→ nomes com mais de 4 letras
 
 let nomes:string[] = ["ana","joao","maria"];
 let nomemaior4 = nomes.filter((nome) => nome.length >= 4);
@@ -18,6 +20,9 @@ console.log(nomemaior4);
 console.log("-----------------------------")
 console.log("exercicio 28:");
 console.log("-----------------------------")
+/*28.Usuários:
+→ maiores de idade
+→ retornar nomes*/
 
 type usuario = {
     nome:string;
@@ -42,6 +47,9 @@ maioresIdade.forEach(usuario => {
 console.log("-----------------------------")
 console.log("exercicio 29:");
 console.log("-----------------------------")
+/*29.Produtos:
+→ preço > 100
+→ aplicar desconto*/
 
 type produto = {
     nome:string;
@@ -71,6 +79,7 @@ produtodesconto.forEach(produto => {
 console.log("-----------------------------")
 console.log("exercicio 30:");
 console.log("-----------------------------")
+/*30.Pedidos:→ pegar pedidos de cliente específico*/
 
 type pedido = {
     cliente:string;
