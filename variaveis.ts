@@ -66,6 +66,7 @@ console.log("-----------------------------")
 nome
 preço
 disponível*/
+
 interface produto{
     nome_produto : string;
     preço : number;
