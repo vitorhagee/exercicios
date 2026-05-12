@@ -36,3 +36,39 @@ console.log("-----------------------------")
 //43.Use destructuring no map.
 
 
+const mappeado = pessoas.map((pessoa) => ({
+    nome:pessoa.nome,
+    idade:pessoa.idade,
+    cpf: "123.456.789-31"
+}));
+
+mappeado.forEach(pessoa => {
+    console.log(pessoa.nome);
+    console.log(pessoa.idade);
+    console.log(pessoa.cpf);
+});
+
+
+console.log("-----------------------------")
+console.log("exercicio 44:");
+console.log("-----------------------------")
+//Renomeie: const { nome: nomeUsuario }
+
+const muda = {
+    nome:'santana da silva'
+}
+
+const {nome:nomeusuario} = muda;
+
+console.log(nomeusuario);
+
+console.log("-----------------------------")
+console.log("exercicio 44:");
+console.log("-----------------------------")
+//Use destructuring em função:
+
+function mostrar ({nome}:pessoaFisica){
+        console.log(nome);
+}
+
+mostrar(pessoas[2]!);
