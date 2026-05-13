@@ -63,7 +63,7 @@ const {nome:nomeusuario} = muda;
 console.log(nomeusuario);
 
 console.log("-----------------------------")
-console.log("exercicio 44:");
+console.log("exercicio 45:");
 console.log("-----------------------------")
 //Use destructuring em função:
 
